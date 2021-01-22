@@ -123,4 +123,5 @@ WHITELISTED_RECIPIENTS | Only allow emails to be sent to specific addresses. | N
 RECAPTCHA_SECRET_KEY | Site secret key for [reCaptcha v3](https://developers.google.com/recaptcha/docs/v3). | N
 
 ### Deploy
+Run `serverless config credentials --provider provider --key key --secret secret` to deploy to AWS - Config Credentials.
 Run `serverless deploy` to deploy to AWS.
